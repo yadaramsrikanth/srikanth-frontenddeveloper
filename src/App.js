@@ -21,7 +21,6 @@ const App=()=> <div className="main-container">
 <h2 className="about-ethai-heading">About EthAi</h2>
 <p className="about-ethai-para">At Eth Ai, we’re all about making crypto trading easier and more intuitive. We provide tools that help traders keep up with all new market trends, track top traders’ movements.</p>
 
-<h6 className="trade-optimizer-heading">Explore Our dApp</h6>
 
 </div>
 
