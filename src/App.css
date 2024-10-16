@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+.main-container{
+    background-color: #00161D;
+    min-height: 100vh;
+    margin: 10px 10px 5px 8px;
+    padding: 10px 15px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.heading{
+    font-size: 45px;
+    color: #FFFFFF;
+    text-align: center;
+}
+span{
+    background-color: #B0F9FF;
+    height: 100px;
+    width: 120px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 15px;
+    color: #0B2A2D;
+    font-size: 24px;
+}
+.home-para{
+    text-align: center;
+    color: #B0FAFFB2;
+}
+.open-button{
+    padding: 15px 12px 15px 12px;
+    
+    align-self: center;
+    background-color: #CDFCFF;
+    border: none;
+    border-radius: 10px;
+    color: #0B2A2D;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.feautures-heading{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 120px;
+}    
+.trade-optimizer-container{
+    background-color: #0C2B2FB2;
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 5px 0px 0px #00161D;
+    margin-left: 15px;
+    padding: 10px 8px 10px 10px;
+    border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trade-optimizer-heading{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.trade-optimizer-para{
+    color: #B0FAFFB2;
+    font-size: 16px;
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.market-insight-container{
+    background-color: #0C2B2FB2;
+    height: 150px;
+    width: 350px;
+    box-shadow: 5px 5px 0px 0px #00161D;
+    margin-left: 15px;
+    padding: 10px 8px 10px 20px;  
+    border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.market{
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.market-insight-para{
+    color: #B0FAFFB2;
+    font-size: 16px;
+}
+.risk-guard-container{
+    background-color: #0C2B2FB2;
+    height: 200px;
+    width: 250px;
+    box-shadow: 5px 5px 0px 0px #00161D;
+    margin-left: 15px;
+    padding: 10px 8px 10px 20px;  
+    border-radius: 10px; 
+}
+.feauture-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.about-ethai-heading{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 120px;
+    text-align: center;
+}
+.about-ethai-para{
+    color:#B0FAFFB2 ;
+    font-size: 18px;
+    text-align: center;
+    width: 550px;
+    align-self: center;
+    margin-left: 120px;
 }
